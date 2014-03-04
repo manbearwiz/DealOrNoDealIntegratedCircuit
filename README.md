@@ -1,4 +1,4 @@
-DealOrNoDealIntegratedCircuit
+"Deal Or No Deal" Integrated Circuit
 =============================
 
 A "Deal or No Deal" game simulator written in VHDL (VHSIC Hardware Description Language).
