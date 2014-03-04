@@ -1,7 +1,33 @@
 "Deal Or No Deal" Integrated Circuit
 =============================
 
-A "Deal or No Deal" game simulator written in VHDL (VHSIC Hardware Description Language).
+State machine written in [VHDL](http://en.wikipedia.org/wiki/VHDL) to simulate the game show [Deal Or No Deal](http://en.wikipedia.org/wiki/Deal_or_No_Deal) on an [Altera DE1 board](http://www.altera.com/education/univ/materials/boards/de1/unv-de1-board.html).
+
+
+Interface
+---------
+
+###Ports
+
+This utilizes the following I/O ports on the DE1 board:
+
+Number | Descripiton | Use
+-------|-------------|----
+10|LED|Represents the briefcases
+4 |Seven-Segment display|Display the offer and case values
+4 | Push button switch|Used to make selections during the game
+
+###Button Actions
+
+Button | Action
+-------|------
+3 | move cursor right
+2 | move cursor left
+1 | select, confirm, enter, "Deal!"
+0 | "No Deal!"
+
+
+
 
 Game Play
 ---------
